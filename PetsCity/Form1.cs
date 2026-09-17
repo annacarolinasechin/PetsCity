@@ -26,10 +26,10 @@ namespace PetsCity
                 double parcela = negocio.CalcularParcela();
                 bool brinde = negocio.ValidarBrinde();
 
-                lblNome.Text = $"{negocio.NomePet.ToUpper()}";
-                lblDesconto.Text = $"{desconto:N2}";
-                lblValorFinal.Text = $"{valorFinal:N2}";
-                lblParcela.Text = $"3x de R${parcela:N2}";
+                lblNome.Text = $"NOME DO PET: {negocio.NomePet.ToUpper()}";
+                lblDesconto.Text = $"DESCONTO: {desconto:N2}";
+                lblValorFinal.Text = $"VALOR TOTAL: {valorFinal:N2}";
+                lblParcela.Text = $"PARCELAMENTO: 3x de R${parcela:N2}";
 
                 txtNomePet.Clear();
                 txtPrecoServico.Clear();
@@ -45,6 +45,21 @@ namespace PetsCity
                                 MessageBoxIcon.Error
                                 );
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblQuantidade_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblParcela_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

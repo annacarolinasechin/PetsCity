@@ -48,125 +48,159 @@
             // lblNomePet
             // 
             this.lblNomePet.AutoSize = true;
-            this.lblNomePet.Location = new System.Drawing.Point(30, 20);
+            this.lblNomePet.BackColor = System.Drawing.Color.Transparent;
+            this.lblNomePet.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomePet.ForeColor = System.Drawing.Color.Green;
+            this.lblNomePet.Location = new System.Drawing.Point(31, 200);
             this.lblNomePet.Name = "lblNomePet";
-            this.lblNomePet.Size = new System.Drawing.Size(54, 13);
+            this.lblNomePet.Size = new System.Drawing.Size(140, 23);
             this.lblNomePet.TabIndex = 0;
-            this.lblNomePet.Text = "Nome Pet";
+            this.lblNomePet.Text = "NOME DO PET:";
             // 
             // lblPrecoServico
             // 
             this.lblPrecoServico.AutoSize = true;
-            this.lblPrecoServico.Location = new System.Drawing.Point(26, 58);
+            this.lblPrecoServico.BackColor = System.Drawing.Color.Transparent;
+            this.lblPrecoServico.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecoServico.ForeColor = System.Drawing.Color.Green;
+            this.lblPrecoServico.Location = new System.Drawing.Point(27, 238);
             this.lblPrecoServico.Name = "lblPrecoServico";
-            this.lblPrecoServico.Size = new System.Drawing.Size(74, 13);
+            this.lblPrecoServico.Size = new System.Drawing.Size(197, 23);
             this.lblPrecoServico.TabIndex = 1;
-            this.lblPrecoServico.Text = "Preço Serviço";
+            this.lblPrecoServico.Text = "PREÇO DO SERVIÇO:";
             // 
             // lblQuantidade
             // 
             this.lblQuantidade.AutoSize = true;
-            this.lblQuantidade.Location = new System.Drawing.Point(26, 101);
+            this.lblQuantidade.BackColor = System.Drawing.Color.Transparent;
+            this.lblQuantidade.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuantidade.ForeColor = System.Drawing.Color.Green;
+            this.lblQuantidade.Location = new System.Drawing.Point(27, 278);
             this.lblQuantidade.Name = "lblQuantidade";
-            this.lblQuantidade.Size = new System.Drawing.Size(62, 13);
+            this.lblQuantidade.Size = new System.Drawing.Size(246, 23);
             this.lblQuantidade.TabIndex = 2;
-            this.lblQuantidade.Text = "Quantidade";
+            this.lblQuantidade.Text = "QNT. DE BANHOS NO MES:";
+            this.lblQuantidade.Click += new System.EventHandler(this.lblQuantidade_Click);
             // 
             // lblIdadeAnimal
             // 
             this.lblIdadeAnimal.AutoSize = true;
-            this.lblIdadeAnimal.Location = new System.Drawing.Point(26, 137);
+            this.lblIdadeAnimal.BackColor = System.Drawing.Color.Transparent;
+            this.lblIdadeAnimal.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdadeAnimal.ForeColor = System.Drawing.Color.Green;
+            this.lblIdadeAnimal.Location = new System.Drawing.Point(33, 321);
             this.lblIdadeAnimal.Name = "lblIdadeAnimal";
-            this.lblIdadeAnimal.Size = new System.Drawing.Size(68, 13);
+            this.lblIdadeAnimal.Size = new System.Drawing.Size(138, 23);
             this.lblIdadeAnimal.TabIndex = 3;
-            this.lblIdadeAnimal.Text = "Idade Animal";
+            this.lblIdadeAnimal.Text = "IDADE DO PET:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(36, 228);
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Green;
+            this.label5.Location = new System.Drawing.Point(496, 184);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 13);
+            this.label5.Size = new System.Drawing.Size(0, 23);
             this.label5.TabIndex = 4;
             // 
             // btnCalculo
             // 
-            this.btnCalculo.Location = new System.Drawing.Point(29, 384);
+            this.btnCalculo.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.btnCalculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculo.ForeColor = System.Drawing.Color.Green;
+            this.btnCalculo.Location = new System.Drawing.Point(206, 374);
             this.btnCalculo.Name = "btnCalculo";
             this.btnCalculo.Size = new System.Drawing.Size(75, 23);
             this.btnCalculo.TabIndex = 5;
-            this.btnCalculo.Text = "Calculo";
-            this.btnCalculo.UseVisualStyleBackColor = true;
+            this.btnCalculo.Text = "Calcular!";
+            this.btnCalculo.UseVisualStyleBackColor = false;
             this.btnCalculo.Click += new System.EventHandler(this.btnCalculo_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 313);
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Green;
+            this.label1.Location = new System.Drawing.Point(79, 330);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 23);
             this.label1.TabIndex = 10;
             // 
             // lblValorFinal
             // 
             this.lblValorFinal.AutoSize = true;
-            this.lblValorFinal.Location = new System.Drawing.Point(30, 291);
+            this.lblValorFinal.BackColor = System.Drawing.Color.Transparent;
+            this.lblValorFinal.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorFinal.ForeColor = System.Drawing.Color.Green;
+            this.lblValorFinal.Location = new System.Drawing.Point(489, 278);
             this.lblValorFinal.Name = "lblValorFinal";
-            this.lblValorFinal.Size = new System.Drawing.Size(53, 13);
+            this.lblValorFinal.Size = new System.Drawing.Size(136, 23);
             this.lblValorFinal.TabIndex = 9;
-            this.lblValorFinal.Text = "ValorFinal";
+            this.lblValorFinal.Text = "VALOR TOTAL:";
             // 
             // lblParcela
             // 
             this.lblParcela.AutoSize = true;
-            this.lblParcela.Location = new System.Drawing.Point(36, 326);
+            this.lblParcela.BackColor = System.Drawing.Color.Transparent;
+            this.lblParcela.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblParcela.ForeColor = System.Drawing.Color.Green;
+            this.lblParcela.Location = new System.Drawing.Point(490, 321);
             this.lblParcela.Name = "lblParcela";
-            this.lblParcela.Size = new System.Drawing.Size(43, 13);
+            this.lblParcela.Size = new System.Drawing.Size(158, 23);
             this.lblParcela.TabIndex = 8;
-            this.lblParcela.Text = "Parcela";
+            this.lblParcela.Text = "PARCELAMENTO";
+            this.lblParcela.Click += new System.EventHandler(this.lblParcela_Click);
             // 
             // lblDesconto
             // 
             this.lblDesconto.AutoSize = true;
-            this.lblDesconto.Location = new System.Drawing.Point(30, 262);
+            this.lblDesconto.BackColor = System.Drawing.Color.Transparent;
+            this.lblDesconto.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDesconto.ForeColor = System.Drawing.Color.Green;
+            this.lblDesconto.Location = new System.Drawing.Point(490, 232);
             this.lblDesconto.Name = "lblDesconto";
-            this.lblDesconto.Size = new System.Drawing.Size(53, 13);
+            this.lblDesconto.Size = new System.Drawing.Size(117, 23);
             this.lblDesconto.TabIndex = 7;
-            this.lblDesconto.Text = "Desconto";
+            this.lblDesconto.Text = "DESCONTO:";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(36, 224);
+            this.lblNome.BackColor = System.Drawing.Color.Transparent;
+            this.lblNome.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.Green;
+            this.lblNome.Location = new System.Drawing.Point(490, 184);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.Size = new System.Drawing.Size(140, 23);
             this.lblNome.TabIndex = 6;
-            this.lblNome.Text = "Nome";
+            this.lblNome.Text = "NOME DO PET:";
             // 
             // txtNomePet
             // 
-            this.txtNomePet.Location = new System.Drawing.Point(159, 20);
+            this.txtNomePet.Location = new System.Drawing.Point(206, 200);
             this.txtNomePet.Name = "txtNomePet";
             this.txtNomePet.Size = new System.Drawing.Size(146, 20);
             this.txtNomePet.TabIndex = 11;
             // 
             // txtIdadeAnimal
             // 
-            this.txtIdadeAnimal.Location = new System.Drawing.Point(159, 137);
+            this.txtIdadeAnimal.Location = new System.Drawing.Point(193, 321);
             this.txtIdadeAnimal.Name = "txtIdadeAnimal";
             this.txtIdadeAnimal.Size = new System.Drawing.Size(146, 20);
             this.txtIdadeAnimal.TabIndex = 13;
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(159, 101);
+            this.txtQuantidade.Location = new System.Drawing.Point(298, 282);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(146, 20);
             this.txtQuantidade.TabIndex = 16;
             // 
             // txtPrecoServico
             // 
-            this.txtPrecoServico.Location = new System.Drawing.Point(159, 58);
+            this.txtPrecoServico.Location = new System.Drawing.Point(255, 238);
             this.txtPrecoServico.Name = "txtPrecoServico";
             this.txtPrecoServico.Size = new System.Drawing.Size(146, 20);
             this.txtPrecoServico.TabIndex = 17;
@@ -175,7 +209,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::PetsCity.Properties.Resources._1;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(903, 512);
             this.Controls.Add(this.txtPrecoServico);
             this.Controls.Add(this.txtQuantidade);
             this.Controls.Add(this.txtIdadeAnimal);
@@ -192,7 +228,8 @@
             this.Controls.Add(this.lblPrecoServico);
             this.Controls.Add(this.lblNomePet);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "PetsCity!";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
